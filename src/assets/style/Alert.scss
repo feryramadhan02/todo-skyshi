@@ -1,0 +1,26 @@
+@import './Variable.scss';
+
+.swal2-popup {
+    width: 490px;
+    background: $primary-color;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 0;
+    padding-left: 27px;
+    .swal2-html-container {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: left;
+        color: $tertiary-color;
+        margin: 19px 0;
+        img {
+            margin-right: 10px;
+        }
+    }
+    .swal2-actions {
+        display: none !important;
+    }
+}

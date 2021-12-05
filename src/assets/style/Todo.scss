@@ -1,0 +1,79 @@
+@import './Variable.scss';
+
+.todo-card-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px;
+    background: $primary-color;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    .label-indicator-very-high {
+        width: 14px;
+        height: 14px;
+        margin-top: 5px;
+        background: #ED4C5C;
+        border-radius: 100%;
+    }
+    .label-indicator-high {
+        width: 14px;
+        height: 14px;
+        margin-top: 5px;
+        background: #F8A541;
+        border-radius: 100%;
+    }
+    .label-indicator-normal {
+        width: 14px;
+        height: 14px;
+        margin-top: 5px;
+        background: #00A790;
+        border-radius: 100%;
+    }
+    .label-indicator-low {
+        width: 14px;
+        height: 14px;
+        margin-top: 5px;
+        background: #428BC1;
+        border-radius: 100%;
+    }
+    .label-indicator-very-low {
+        width: 14px;
+        height: 14px;
+        margin-top: 5px;
+        background: #8942C1;
+        border-radius: 100%;
+    }
+    .left-menu {
+        width: 250px;
+        display: flex;
+        justify-content: space-between;
+        input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+        }
+        p {
+            font-family: "Poppins", sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            color:$tertiary-color;
+            margin-right: 15px;
+            margin-bottom: 0;
+        }
+        .back {
+            background: none;
+            border: none;
+            box-shadow: none;
+            margin-top: -10px;
+        }
+    }
+    .right-menu {
+        .btn-delete-todo {
+            padding: 0;
+            margin-top: -10px;
+            border: none;
+            background: none;
+            box-shadow: none;
+        }
+    }
+}
